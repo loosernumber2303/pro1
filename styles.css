@@ -1,4 +1,89 @@
-body{
-    padding: 20px 50px;
-    align-items: center;
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 400px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 25px 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #00539C;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00539C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #003b6f;
+  cursor: pointer;
+}
+
+nav {
+  text-align: center;
+  background-color: #00539C;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #00539C;
+  color: white;
 }
